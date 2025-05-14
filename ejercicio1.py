@@ -20,7 +20,7 @@ menos_peligrosa = df.loc[df['Tasa Mortalidad (%)'].idxmin()]
 plt.figure(figsize=(8, 5))
 plt.bar(df['Enfermedad'], df['Tasa Mortalidad (%)'], color='skyblue')
 plt.title('Tasa de Mortalidad por Enfermedad')
-plt.xlabel('Enfermedad')
+plt.xlabel('Enfermedad grave')
 plt.ylabel('Tasa de Mortalidad (%)')
 
 # Resaltar la más y menos peligrosa
@@ -30,5 +30,6 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
+print("holaa")
 
 print("NO FUNCIONA EL PIP:'v")
