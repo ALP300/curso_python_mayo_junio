@@ -7,7 +7,7 @@ data = {
     'Casos': [10000, 5000, 300, 2000, 1500],
     'Muertes': [10, 300, 200, 5, 1]
 }
-
+#Comentario por javier
 df = pd.DataFrame(data)
 df['Tasa Mortalidad (%)'] = (df['Muertes'] / df['Casos']) * 100
 
