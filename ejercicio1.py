@@ -30,5 +30,6 @@ plt.legend()
 
 plt.tight_layout()
 plt.show()
+print("holaa")
 
 print("NO FUNCIONA EL PIP:'v")
